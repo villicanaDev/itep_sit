@@ -1,0 +1,38 @@
+body {
+  background: #fff;
+}
+
+
+.wrapper {
+  animation: scroll 70s linear infinite;
+  background: url(../../../assets/img/favicon/tecnm_icon.png), #1111118a;
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  
+}
+
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+.headerLogin {
+    margin: -3em 0 3em 0 ;
+    width: 283; 
+    height: 110;
+}
+

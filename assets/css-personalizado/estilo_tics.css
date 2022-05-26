@@ -1,0 +1,80 @@
+.zg-body {
+    padding: 20px;
+      background:#ffffff;
+      font-family: 'Work Sans', sans-serif;
+  }
+  
+  zing-grid {
+    max-width: 700px;
+    margin: 0 auto;
+      font-family: 'Work Sans', sans-serif;
+    border: none;
+    font-size: 11px;
+    color: #212121;
+    border: 1px solid #ddd;
+    opacity: 1;
+  }
+  zing-grid.loading { opacity:0; transition:opacity .3s ease-out; }
+  zing-grid.loading * { opacity:0; }
+  
+  zg-caption {
+       background: #ffffff;
+    color: #222222;
+    padding: 0px 15px;
+    font-size: 18px;
+  }
+  
+  zg-head {
+      letter-spacing: .5px;
+    padding-left: 1px;
+  }
+  
+  
+  zg-head, zg-head-cell {
+      font-size: 10px;
+    align-items: middle;
+    color: #888888;
+  }
+  
+  zg-cell {
+    margin-right: 0px;
+  }
+  
+  zg-head-cell:first-child,
+  zg-cell:first-child {
+    border-left: 0px solid white;
+  }
+  
+  zg-icon {
+       max-width: 14px;
+  }
+  
+  zg-row, zg-cell {
+    padding: 0 10px;
+    height: 35px !important;
+  }
+  
+  zg-cell:nth-child(1) img {
+      vertical-align: middle;
+  }
+  
+  zg-cell:nth-child(1) span {
+      vertical-align: middle;
+  }
+  
+  .zg-body .user--avatar {
+    width: 20px;
+    margin-right: 7px;
+  }
+  
+  .zg-body .recent {
+    color: #69B668;
+  }
+  
+  .zg-body .unknown {
+    color: #ACAAAE;
+  }
+  
+  zg-filter input {
+    margin-left: 7px;
+  }

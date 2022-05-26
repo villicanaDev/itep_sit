@@ -1,0 +1,121 @@
+.admin-content{
+    width: 100% !important; 
+}
+
+.m-b-10 {
+    width: 100% !important;
+}
+.container{
+    display:flex;
+}
+
+
+/* Reacomodo de cards */
+@media screen and (max-width: 2300px) and (min-width: 1284px) {                     
+    .container{
+        margin-top: 4rem;
+		margin-left: 17rem;
+        max-width: 1600px !important;
+	}
+}
+
+@media screen and (max-width: 1283px) and (min-width: 1051px) { 
+    .container{
+        margin-top: 4rem;
+        padding-left: 19rem;
+        max-width: 1200px !important;
+	}
+}
+
+@media screen and (max-width: 1050px) and (min-width: 993px) { 
+    .container{
+        margin-top: 4rem;
+        padding-left: 18rem;
+        max-width: 1030px !important;
+	}
+}
+   
+@media screen and (max-width: 992px)  {
+	.container{
+        margin-top: 4rem;
+		padding-left: 4rem;
+        max-width: 875px !important;
+	}
+
+	@media screen and (max-width: 767px)  {
+		.container{
+			padding-left: 4rem;
+		}
+   	}
+}
+
+.titulos{
+    /* font-family: GMX Serif Bold; */
+    margin-top: 3rem !important;
+    font-size: 40px;
+}   
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid #b13e3ea9;
+}
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #781c1d !important;
+    background-color: transparent !important;
+    border-right: solid 1px #b13e3ea9 !important;
+    border: solid 1px #b13e3ea9 !important;
+    border-bottom: solid 4px #b13e3ea9 !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+
+.tab-pane{
+    border: none !important;
+}
+
+.tarjeta_carrerea_general{
+    background-color: transparent; 
+    border: solid 1px #781c1d; 
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
+    border-top: none; 
+    border-radius: 0 0 50px 5px;
+}
+
+.optiones_carrera{
+    padding: 2rem; 
+    margin-top:2rem;
+}
+
+.opcion_grupo{
+    margin:1rem; 
+    padding:1rem;
+    border-left: solid 5px #4964ae;
+}
+
+.opcion_almn{
+    margin: 1rem; 
+    padding:1rem; 
+    border-left: solid 5px #f2545b;
+}
+
+.opcion_apro{
+    margin: 1rem; 
+    padding:1rem; 
+    border-left: solid 5px #6fbd67;
+}
+
+.opcion_repro{
+    margin: 1rem; 
+    padding:1rem; 
+    border-left: solid 5px #ffc561;
+}
+
+.text_opcion{
+    margin-top: 12px;
+    margin-left: 12px;
+}

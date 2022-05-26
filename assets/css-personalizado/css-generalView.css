@@ -1,0 +1,196 @@
+
+.admin-content{
+    width: 100% !important; 
+}
+
+.m-b-10 {
+    width: 100% !important;
+}
+.container{
+    display:flex;
+}
+
+
+/* Reacomodo de cards */
+@media screen and (max-width: 2300px) and (min-width: 1284px) {                     
+    .container{
+        margin-top: 4rem;
+		margin-left: 17rem;
+        max-width: 1600px !important;
+	}
+}
+
+@media screen and (max-width: 1283px) and (min-width: 1051px) { 
+    .container{
+        margin-top: 4rem;
+        padding-left: 19rem;
+        max-width: 1200px !important;
+	}
+}
+
+@media screen and (max-width: 1050px) and (min-width: 993px) { 
+    .container{
+        margin-top: 4rem;
+        padding-left: 18rem;
+        max-width: 1030px !important;
+	}
+}
+   
+@media screen and (max-width: 992px)  {
+	.container{
+        margin-top: 4rem;
+		padding-left: 4rem;
+        max-width: 875px !important;
+	}
+
+	@media screen and (max-width: 767px)  {
+		.container{
+			padding-left: 4rem;
+		}
+   	}
+}
+
+.titulos{
+    /* font-family: GMX Serif Bold; */
+    margin-top: 3rem !important;
+    font-size: 40px;
+}   
+
+.boxCarreras{
+    display: contents;
+   /*  width: 100%; */
+}
+
+hr
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    border: 0;
+    border-top: 4px solid #b13e3ea9;
+}
+
+.card{
+    background-color: transparent !important;
+    border: 2px solid #b13e3ea9 !important;
+} 
+
+a.boxCarrera{
+    margin: 1rem;
+}
+
+.boxCarrera{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.holderLogo{
+    width: 197px;
+}
+
+.infoCarrera{
+    padding-left: 10px;
+    margin-top: 2rem;
+    color: #781c1d;
+    font-size: 15px;
+}
+
+.detalleCarrra{
+    margin-top: -1rem;
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+}
+
+.infStatic{
+    color: #707070;
+}
+
+.infDinamic{
+    padding-right: 5px;
+    color: #781c1d;
+}
+
+/* .boxCarreraR{
+    margin: 1rem;
+    flex-direction: row;
+    padding: 1rem;
+} */
+
+
+/* Reacomodo de cards */
+@media screen and (max-width: 2300px) and (min-width: 1284px) {                     
+    /* .boxCarreraL{
+		margin-left: 26rem;
+        max-width: 1600px !important;
+	}
+    .boxCarreraR{
+		margin-left: 26rem;
+        max-width: 1600px !important;
+	} */
+
+}
+
+@media screen and (max-width: 1283px) and (min-width: 1200px) { 
+    .boxCarrera{
+		display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+   /*  .boxCarreraR{
+		display: flex;
+        justify-content: center;
+        align-items: center;
+	} */
+}
+
+@media screen and (max-width: 1201px) and (min-width: 1051px) { 
+    /* .boxCarreraL{
+		display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+    .boxCarreraR{
+		display: flex;
+        justify-content: center;
+        align-items: center;
+	} */
+}
+
+@media screen and (max-width: 1050px) and (min-width: 993px) { 
+    /* .boxCarreraL{
+		margin-left: 26rem;
+        max-width: 1600px !important;
+	}
+    .boxCarreraR{
+		margin-left: 26rem;
+        max-width: 1600px !important;
+	} */
+}
+   
+@media screen and (max-width: 992px)  {
+	.boxCarrera{
+		/* margin-left: 26rem; */
+        max-width: 1600px !important;
+	}
+   /*  .boxCarreraR{
+		margin-left: 26rem; 
+        max-width: 1600px !important;
+	}*/
+
+	@media screen and (max-width: 767px)  {
+		.boxCarrera{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* .boxCarreraR{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+   	}
+}
+/* ------------------------------ */
+

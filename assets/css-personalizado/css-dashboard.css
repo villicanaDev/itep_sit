@@ -1,0 +1,56 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+
+.headBar{
+    display: inherit !important;
+    border-radius: 0px !important;
+    background-color: #6e0a0aeb;
+    height: 100px !important;
+}
+
+.dropdown{
+    font-size: 20px !important;
+    padding: 1rem !important;
+    
+}
+
+a.dropdown-toggle{
+    color: #fff !important;
+}
+a.dropdown-toggle:hover{
+    background-color: #b13e3ea9 !important;
+}
+
+.dropdown-menu.show {
+    font-size: 18px !important;
+}
+
+.menuLateral{
+    float: left;
+    background-color: transparent !important;
+    font-size: 15px;
+    margin-top: -2rem;
+    width: 250px !important;
+    border-right: solid 1px #707070 !important;
+}
+
+.menu{
+    font-size: 15px;
+    padding-top: 4rem !important;
+
+}
+
+
+.active{
+    border-right: solid 8px #b13e3ea9 !important;
+}
+
+/* ------------------------------ */
+
+/* 
+.admin-sidebar .menu .menu-item.active>.menu-link .menu-label{
+    color:#6e0a0aeb !important;
+} */
